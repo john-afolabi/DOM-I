@@ -108,3 +108,13 @@ nav.appendChild(newnav1)
 newnav2 = document.createElement('a')
 newnav2.textContent = 'Home'
 nav.prepend(newnav2)
+
+// Stretch - Update Styles
+const paragraph = Array.from(document.getElementsByTagName('p'));
+paragraph.forEach(p => {
+  p.style.fontSize = '18px'
+  p.style.padding = '5px'
+  p.style.color = 'grey'
+});
+
+cta.children[0].style.color = 'grey'
