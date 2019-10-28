@@ -88,3 +88,7 @@ contact.children[0].textContent = siteContent["contact"]["contact-h4"];
 contact.children[1].textContent = siteContent["contact"]["address"];
 contact.children[2].textContent = siteContent["contact"]["phone"];
 contact.children[3].textContent = siteContent["contact"]["email"];
+
+// Footer
+const footer = document.getElementsByTagName('footer')[0];
+footer.textContent = siteContent["footer"]["copyright"];
