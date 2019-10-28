@@ -98,4 +98,13 @@ navArray = Array.from(nav.children);
 navArray.forEach(a => {
   a.style.color = 'green'
 });
-console.log(navArray);
+
+// Create new navigation element with appendChild
+newnav1 = document.createElement('a')
+newnav1.textContent = 'Gallery'
+nav.appendChild(newnav1)
+
+// Create new navigation element with prepend
+newnav2 = document.createElement('a')
+newnav2.textContent = 'Home'
+nav.prepend(newnav2)
