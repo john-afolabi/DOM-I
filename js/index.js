@@ -49,9 +49,9 @@ middleimg.setAttribute('src', siteContent['main-content']['middle-img-src']);
 
 // Add Nav Text
 const nav = document.getElementsByTagName('nav')[0];
-nav.children[0].textContent = 'Services'
-nav.children[1].textContent = 'Product'
-nav.children[2].textContent = 'Vision'
-nav.children[3].textContent = 'Features'
-nav.children[4].textContent = 'About'
-nav.children[5].textContent = 'Contact'
+nav.children[0].textContent = siteContent['nav']['nav-item-1']
+nav.children[1].textContent = siteContent['nav']['nav-item-2']
+nav.children[2].textContent = siteContent['nav']['nav-item-3']
+nav.children[3].textContent = siteContent['nav']['nav-item-4']
+nav.children[4].textContent = siteContent['nav']['nav-item-5']
+nav.children[5].textContent = siteContent['nav']['nav-item-6']
