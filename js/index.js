@@ -92,3 +92,10 @@ contact.children[3].textContent = siteContent["contact"]["email"];
 // Footer
 const footer = document.getElementsByTagName('footer')[0];
 footer.textContent = siteContent["footer"]["copyright"];
+
+// Change Navigation text color
+navArray = Array.from(nav.children);
+navArray.forEach(a => {
+  a.style.color = 'green'
+});
+console.log(navArray);
