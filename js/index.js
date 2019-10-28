@@ -60,3 +60,23 @@ nav.children[5].textContent = siteContent['nav']['nav-item-6']
 const cta = document.getElementsByClassName('cta-text')[0];
 cta.children[0].textContent = siteContent['cta']['h1'];
 cta.children[1].textContent = siteContent['cta']['button'];
+
+// Content
+const textContent = document.querySelectorAll('.text-content')
+
+// Top Content
+textContent[0].children[0].textContent = siteContent["main-content"]["features-h4"];
+textContent[0].children[1].textContent = siteContent["main-content"]["features-content"];
+
+textContent[1].children[0].textContent = siteContent["main-content"]["about-h4"];
+textContent[1].children[1].textContent = siteContent["main-content"]["about-content"];
+
+// Bottom Content
+textContent[2].children[0].textContent = siteContent["main-content"]["services-h4"];
+textContent[2].children[1].textContent = siteContent["main-content"]["services-content"];
+
+textContent[3].children[0].textContent = siteContent["main-content"]["product-h4"];
+textContent[3].children[1].textContent = siteContent["main-content"]["product-content"];
+
+textContent[4].children[0].textContent = siteContent["main-content"]["vision-h4"];
+textContent[4].children[1].textContent = siteContent["main-content"]["vision-content"];
