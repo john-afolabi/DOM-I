@@ -46,3 +46,12 @@ ctaimg.setAttribute('src', siteContent['cta']['img-src']);
 
 const middleimg = document.getElementById('middle-img');
 middleimg.setAttribute('src', siteContent['main-content']['middle-img-src']);
+
+// Add Nav Text
+const nav = document.getElementsByTagName('nav')[0];
+nav.children[0].textContent = 'Services'
+nav.children[1].textContent = 'Product'
+nav.children[2].textContent = 'Vision'
+nav.children[3].textContent = 'Features'
+nav.children[4].textContent = 'About'
+nav.children[5].textContent = 'Contact'
